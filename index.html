@@ -7,40 +7,50 @@
     <title>Ai Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to my Ai Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        poem goes here
-        <br />
-        poem goes here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to my Ai Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-    <footer>
-      This Ai project was coded by
-      <a href="https://github.com/LatoyaNatashaC" target="_blank"
-        >Latoya Natasha Campbell</a
-      >
-      and is
-      <a href="https://github.com/LatoyaNatashaC/Ai-Prototype" target="_blank">
-        open sourced on GitHub</a
-      >
-      and is
-      <a href="https://ai-prototype-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+        <div class="poem">
+          poem goes here
+          <br />
+          poem goes here
+        </div>
+      </main>
+
+      <footer>
+        This Ai project was coded by
+        <a href="https://github.com/LatoyaNatashaC" target="_blank"
+          >Latoya Natasha Campbell</a
+        >
+        and is
+        <a
+          href="https://github.com/LatoyaNatashaC/Ai-Prototype"
+          target="_blank"
+        >
+          open sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-prototype-poem-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
